@@ -4,20 +4,17 @@
     </head>
     <body>  
         <script src="stackscript.js"></script>
-
-            <div class = "pushdiv">
-                <label for = "elems">Element to push: </label>
-                <input type ="text" id = "elems" placeholder="1 2 3 etc."><br>
+        <div id="stack"></div>
+        <div class="wrapper">
+            <div class = "buttons">
                 <button id = "push">Push</button>
-            </div>
-            <div ="popdiv">
-                <p id="popped">Current popped element: </p>
                 <button id = "pop">Pop</button>
             </div>
-        <div id="stack"></div>
-        </body>
-        
-        
-      
+            <div class="io">
+                <label for = "elems">Element to push: </label>
+                <input type ="text" id = "elems" placeholder=""><br>
+                <p id="popped">Popped element: </p>
+            </div>
+        </div>
     </body>
 </html>
